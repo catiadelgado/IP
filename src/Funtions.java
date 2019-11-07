@@ -76,30 +76,15 @@ class Funtions {
 		//return !(n>=min && n<=max);
 		//return n<min || n>max;	
 	}	
-		
-	
+
+
 	// Exercicio M
-		public static boolean xor (boolean b1, boolean b2) {
-			return b1!=b2;
-		}
-		
-		// Exercicio N
-		public static boolean isVowel (char l) {
-			return ( l=='a'|| l=='e' || l=='i' || l=='o'|| l== 'u');
-		}
-	/* 
-	 * 
+	public static boolean xor (boolean b1, boolean b2) {
+		return b1!=b2;
+	}
 
-
-
-
-
-
-
-N-Saber se um carácter (char) corresponde a uma vogal minúscula.
-Exemplos:
-
-isVowel('a') → true
-isVower('z') → false
-	 */
+	// Exercicio N
+	public static boolean isVowel (char l) {
+		return ( l=='a'|| l=='e' || l=='i' || l=='o'|| l== 'u');
+	}
 }
