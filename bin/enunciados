@@ -1,9 +1,10 @@
 enunciados:
 
 semana 1: 
-1 - square
+exemplo 1 - square
 	 dado um numero inteiro , devolve o quadrado desse número.
 	 
+
 
 exercicios: 
 A-Obter o dobro de um número. A definição desta função é muito semelhante ao exemplo dado inicialmente.
