@@ -1,6 +1,6 @@
 class Funtions {
 
-
+	//--------------------------aula 1---------------------------------------------------//
 	//1
 	public static int  square	( int n)  {
 		return n*n; 
@@ -88,4 +88,145 @@ class Funtions {
 	public static boolean isVowel (char l) {
 		return ( l=='a'|| l=='e' || l=='i' || l=='o'|| l== 'u');
 	}
+
+
+	//------------------------------------Aula2--------------------------------------------//
+
+	//1
+	static int  min ( int a, int b ) {
+		if ( a<b) return a; 
+		else return b;
+	}
+
+
+	// 
+	static int produto ( int a, int b){
+		int i = a; 
+		int total = 0; 
+		while ( i!=0 ) {
+			total += b; 
+			i=i-1;
+		}
+		return total;
+	}
+
+	// Trabalho prévio -A
+
+	static int max ( int a, int b ) {
+		if ( a<b) return b;
+		else return a; 
+	}
+
+
+
+	// Trabalho prévio -B
+
+	static boolean IsMultipleOther ( int a, int b) {
+		int i = b;
+		while ( i<a){
+			i += b;
+		}
+		if ( i == a ) return true ;
+		else return false;
+	}
+
+
+	//Exercício A
+	static int abs( int n){
+		if ( n>=0) return n; 
+		else return -n;
+	}
+	
+	//Exercício B
+	static int divide( int a, int b ) {
+		int aux = a; 
+		int result = 0;
+		while ( aux >= b) {
+			aux -=b; 
+			result++; 
+		}
+		return result;
+	}
+
+	//Exercício C
+	static int powerOfTwo(int n){
+		int i = n; 
+		int total = 2;
+		while ( i>1){
+			total *=2; 
+			i-=1;
+		}
+		return total;
+	}
+
+
+	//Exercício D
+	static int sumOfNaturalUpTo(int n){
+		int i = 0; 
+		int total = 0;
+		while ( i <n){
+			total += i+1;
+			i++; }
+		return total; 
+
+	}
+	
+	//Exercício E
+	static int sumOfEvenNumbersBetween(int a, int b){
+		int i = a; 
+		int total = 0;
+		while ( i <= b){
+			if ( i%2==0){
+				total += i;
+			}
+			i++;
+		}
+		return total; 
+
+	}
+	
+	//Exercício F
+	static int firstDigit( int n) {
+		int i  = 1000000000;
+		int digit = 0;
+		do {
+			digit = n/i; 
+		if (digit !=0) return digit; 
+		else 
+			i = i/10;}
+		while ( i>0);
+		return digit; 
+	}
+	
+	
+	//Exercício G
+	/*static int fibonacci ( int n){
+		
+	}*/
+		
+		
+	/*
+
+
+
+
+
+G-Obter o n-ésimo número da sequência de Fibonacci, considerando que o primeiro número da sequência tem número de ordem zero.
+Recorde: os primeiros números da sequência de Fibonacci são 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+Exemplo:
+
+fibonacci(7) → 13
+
+Sucessão de Fibonacci
+
+//Exercícios extra
+A-Defina uma função que recebe como argumento dois números naturais m e n e que calcula o máximo divisor comum desses dois números, usando o algoritmo de Euclides.
+Exemplo:
+
+gcd(25, 30) → 5
+	 * 
+	 * */
+	
+	
+	
 }

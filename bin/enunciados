@@ -1,5 +1,5 @@
 enunciados:
-
+// ---------------------------------------- Aula 1-----------------------------------------//
 semana 1: 
 exemplo 1 - square
 	 dado um numero inteiro , devolve o quadrado desse número.
@@ -76,3 +76,76 @@ Exemplos:
 
 isVowel('a') → true
 isVower('z') → false
+
+
+
+//---------------------------Aula 2 -----------------------------------------------------------//
+
+1- devolve o mínimo entre dois valores inteiros
+
+2- devolve o resultado da multiplicação de dois números inteiros (sem recorrer ao operador *)
+
+
+// Trabalho prévio
+Desenvolva uma classe estática com funções que permitam:
+
+A- Obter o máximo entre dois números.
+Exemplo:
+
+max(7, 9) → 9
+
+Verificar se um número é múltiplo de um outro número, sem recurso ao operador de resto da divisão (%).
+Exemplo:
+
+B-isMultiple(25, 5) → true
+
+//Exercícios
+Defina funções que permitam:
+
+A-Obter o valor absoluto de um número.
+Exemplos:
+
+abs(-2) → 2
+abs(4) → 4
+
+B-Obter o quociente da divisão inteira, sem recorrer ao operador de divisão (/).
+Exemplos:
+
+divide(31, 5) → 6
+divide(35, 7) → 5
+
+C-Obter uma potência de 2, i.e. 2n, dado o expoente num argumento que se assume ser um número natural n (diferente de zero).
+Exemplo:
+
+powerOfTwo(4) → 16
+powerOfTwo(8) → 256
+
+D-Obter o somatório dos números naturais até um dado n.
+Exemplo:
+
+sumOfNaturalsUpTo(5) → 15     (1 + 2 + 3 + 4 + 5)
+
+E-Obter o somatório dos números naturais pares compreendidos num dado intervalo fechado.
+Exemplo:
+
+sumOfEvenNumbersBetween(3, 8) → 18     (4 + 6 + 8)
+
+F-Obter o primeiro algarismo da representação decimal de um número inteiro.
+Exemplos:
+
+firstDigit(2011) → 2
+firstDigit(1998) → 1
+
+G-Obter o n-ésimo número da sequência de Fibonacci, considerando que o primeiro número da sequência tem número de ordem zero.
+Recorde: os primeiros números da sequência de Fibonacci são 0, 1, 1, 2, 3, 5, 8, 13, 21, ...
+Exemplo:
+
+fibonacci(7) → 13
+
+Sucessão de Fibonacci
+
+//Exercícios extra
+A-Defina uma função que recebe como argumento dois números naturais m e n e que calcula o máximo divisor comum desses dois números, usando o algoritmo de Euclides.
+Exemplo:
+
+gcd(25, 30) → 5
